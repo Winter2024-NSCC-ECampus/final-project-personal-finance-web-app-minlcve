@@ -4,22 +4,22 @@ A responsive web application for managing personal finances, built using Java EE
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Record income and expenses  
-- ✅ Categorize transactions (e.g., groceries, entertainment)  
-- ✅ Tag transactions for easy filtering  
-- ✅ Set and manage monthly budgets  
-- ✅ Automate recurring income/expenses  
-- ✅ Track personal investments  
-- ✅ Interactive pie chart visualizations  
-- ✅ Embedded CSS with soft pink & white theme (`#FAE6E7`)  
-- ✅ Fully functional navigation between JSP pages  
-- ✅ Built with standard J2EE stack (JSP, Servlet, Java)
+-  Record income and expenses  
+-  Categorize transactions (e.g., groceries, entertainment)  
+-  Tag transactions for easy filtering  
+-  Set and manage monthly budgets  
+-  Automate recurring income/expenses  
+-  Track personal investments  
+-  Interactive pie chart visualizations  
+-  Embedded CSS with soft pink & white theme (`#FAE6E7`)  
+-  Fully functional navigation between JSP pages  
+-  Built with standard J2EE stack (JSP, Servlet, Java)
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Java (J2EE)
 - JSP (JavaServer Pages)
@@ -31,7 +31,7 @@ A responsive web application for managing personal finances, built using Java EE
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repo
 
