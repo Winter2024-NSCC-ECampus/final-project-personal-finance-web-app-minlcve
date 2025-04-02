@@ -4,7 +4,7 @@ A responsive web application for managing personal finances, built using Java EE
 
 ---
 
-## Features
+## 📌 Features
 
 - ✅ Record income and expenses  
 - ✅ Categorize transactions (e.g., groceries, entertainment)  
@@ -19,7 +19,7 @@ A responsive web application for managing personal finances, built using Java EE
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Java (J2EE)
 - JSP (JavaServer Pages)
@@ -31,30 +31,32 @@ A responsive web application for managing personal finances, built using Java EE
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the Repo
 
 ```bash
 git clone https://github.com/your-username/PersonalFinanceApp.git
 cd PersonalFinanceApp
+```
 
-2. Open in Eclipse
-File > Import > Existing Projects into Workspace
+### 2. Open in Eclipse
 
-Select the extracted folder
+- File > Import > Existing Projects into Workspace  
+- Select the extracted folder  
+- Make sure JDK is set up in Eclipse
 
-Make sure JDK is set up in Eclipse
+### 3. Run on Server
 
-3. Run on Server
-Right-click project > Run As > Run on Server
+- Right-click project > Run As > Run on Server  
+- Choose Apache Tomcat  
+- Open `http://localhost:8080/PersonalFinanceApp` in your browser
 
-Choose Apache Tomcat
+---
 
-Open http://localhost:8080/PersonalFinanceApp in your browser
+## Project Structure
 
-📂 Project Structure
-
+```
 src/
 ├── main/
 │   ├── java/
@@ -62,14 +64,28 @@ src/
 │   │       ├── Transaction.java
 │   │       ├── Investment.java
 │   │       ├── BudgetManager.java
-│   │       ├── Servlets...
+│   │       ├── AddRecurringServlet.java
+│   │       ├── TransactionServlet.java
+│   │       ├── InvestmentServlet.java
+│   │       ├── SetBudgetServlet.java
+│   │       ├── LoginServlet.java
+│   │       └── RegisterServlet.java
 │   └── webapp/
+│       ├── index.jsp
 │       ├── login.jsp
 │       ├── register.jsp
 │       ├── addTransaction.jsp
 │       ├── viewTransactions.jsp
 │       ├── setBudget.jsp
 │       ├── addRecurring.jsp
+│       ├── addInvestment.jsp
 │       ├── viewInvestments.jsp
 │       └── dashboard.jsp
+```
 
+---
+
+
+##  Author
+
+- **Jasmine Fowler**
